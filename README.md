@@ -5,5 +5,17 @@ This repository contains a Convolutional Neural Network (CNN) model designed for
 
 # Installation
 1.Clone the repository
-git clone https://github.com/your-username/spam-email-classifier.git
-cd spam-email-classifier
+  This the most crucial step to clone the repository because, Cloning a repository lets you download the project to your local machine, enabling you to work offline, test the code, and 
+  contribute changes efficiently using Git.
+
+2.Install Dependencies
+Once you’ve cloned the repository, navigate to the project folder and install the required dependencies:
+
+    pip install -r requirements.txt
+This command will install all the necessary libraries such as Streamlit, scikit-learn, nltk, and others.
+
+3.Run the Application
+Once the dependencies are installed, you can start the application with the following command:
+
+    streamlit run app.py
+This will launch the application in your browser. By default, it will run on localhost:8501.
